@@ -1,0 +1,30 @@
+<label> Your name
+    [text* your-name autocomplete:name placeholder "Enter your name"] </label>
+
+<label> Your email
+    [email* your-email autocomplete:email placeholder "Enter your email"] </label>
+
+<label>Phone number
+ [number number-433 placeholder "Enter your 10 digits phone number"]  </label>
+
+
+[submit "Submit"]
+
+
+
+[_site_title] "[your-name]"
+
+
+
+
+name: [your-name]
+
+
+
+phone number:[number-433]
+
+
+
+email:[your-email]
+
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
